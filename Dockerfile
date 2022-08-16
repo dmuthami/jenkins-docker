@@ -1,4 +1,5 @@
 FROM node:16.6-alpine as builder 
+LABEL MAINTAINER "waruid@gmail.com"
 WORKDIR '/app'
 COPY package.json .
 RUN npm install

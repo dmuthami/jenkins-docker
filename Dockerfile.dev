@@ -1,5 +1,7 @@
 FROM node:alpine
 
+LABEL MAINTAINER "waruid@gmail.com"
+
 WORKDIR '/app'
 
 COPY package.json .
